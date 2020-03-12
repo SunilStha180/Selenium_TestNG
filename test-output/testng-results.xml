@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-13T00:40:24 NPT" name="TestNG" finished-at="2020-03-13T00:42:12 NPT" duration-ms="108722">
+    <groups>
+    </groups>
+    <test started-at="2020-03-13T00:40:24 NPT" name="Testing_Web" finished-at="2020-03-13T00:42:12 NPT" duration-ms="108722">
+      <class name="testNG.TestAutomation">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:testNG.TestAutomation@74751b3]" started-at="2020-03-13T00:40:24 NPT" name="invokeBrowser" finished-at="2020-03-13T00:41:11 NPT" duration-ms="47616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="getDresses()[pri:0, instance:testNG.TestAutomation@74751b3]" started-at="2020-03-13T00:41:11 NPT" name="getDresses" finished-at="2020-03-13T00:41:42 NPT" duration-ms="31114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDresses -->
+        <test-method signature="getinStock()[pri:0, instance:testNG.TestAutomation@74751b3]" started-at="2020-03-13T00:41:42 NPT" name="getinStock" finished-at="2020-03-13T00:41:45 NPT" depends-on-methods="testNG.TestAutomation.getDresses" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getinStock -->
+        <test-method signature="getProduct()[pri:0, instance:testNG.TestAutomation@74751b3]" started-at="2020-03-13T00:41:45 NPT" name="getProduct" finished-at="2020-03-13T00:41:51 NPT" depends-on-methods="testNG.TestAutomation.getinStock" duration-ms="6423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProduct -->
+        <test-method signature="changeQuantity()[pri:0, instance:testNG.TestAutomation@74751b3]" started-at="2020-03-13T00:41:51 NPT" name="changeQuantity" finished-at="2020-03-13T00:41:53 NPT" depends-on-methods="testNG.TestAutomation.getProduct" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeQuantity -->
+        <test-method signature="changeSize()[pri:0, instance:testNG.TestAutomation@74751b3]" started-at="2020-03-13T00:41:53 NPT" name="changeSize" finished-at="2020-03-13T00:41:58 NPT" depends-on-methods="testNG.TestAutomation.changeQuantity" duration-ms="4674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeSize -->
+        <test-method signature="changeColor()[pri:0, instance:testNG.TestAutomation@74751b3]" started-at="2020-03-13T00:41:58 NPT" name="changeColor" finished-at="2020-03-13T00:42:00 NPT" depends-on-methods="testNG.TestAutomation.changeSize" duration-ms="2145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeColor -->
+        <test-method signature="addToCart()[pri:0, instance:testNG.TestAutomation@74751b3]" started-at="2020-03-13T00:42:00 NPT" name="addToCart" finished-at="2020-03-13T00:42:04 NPT" depends-on-methods="testNG.TestAutomation.changeColor" duration-ms="4117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="proceedToCheckOut()[pri:0, instance:testNG.TestAutomation@74751b3]" started-at="2020-03-13T00:42:04 NPT" name="proceedToCheckOut" finished-at="2020-03-13T00:42:11 NPT" depends-on-methods="testNG.TestAutomation.addToCart" duration-ms="7154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToCheckOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNG.TestAutomation@74751b3]" started-at="2020-03-13T00:42:11 NPT" name="closeBrowser" finished-at="2020-03-13T00:42:12 NPT" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNG.TestAutomation -->
+    </test> <!-- Testing_Web -->
+  </suite> <!-- TestNG -->
+</testng-results>

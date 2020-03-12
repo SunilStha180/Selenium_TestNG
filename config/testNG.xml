@@ -1,0 +1,9 @@
+<suite name="TestNG">
+	<test name ="Testing_Web">
+		<classes>
+			<class name ="testNG.TestAutomation">
+				
+			</class>
+		</classes>
+	</test>
+</suite>

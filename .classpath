@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="F:/selenium-server-standalone-3.9.1.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/bundle-jars.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/byte-buddy-1.7.9.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/commons-net-3.6.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/commons-text-1.1.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/cssparser-0.9.24.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/guava-23.6-jre.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/htmlunit-2.29.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/htmlunit-core-js-2.28.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/htmlunit-driver-2.29.0.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/jcip-annotations-1.0.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/jetty-client-9.4.7.v20170914.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/jetty-http-9.4.8.v20171121.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/jetty-io-9.4.8.v20171121.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/jetty-util-9.4.8.v20171121.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/jetty-xml-9.4.7.v20170914.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/neko-htmlunit-2.28.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/okhttp-3.9.1.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/okio-1.13.0.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/snakeyaml-1.19.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/websocket-api-9.4.7.v20170914.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/websocket-client-9.4.7.v20170914.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/websocket-common-9.4.7.v20170914.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="F:/selenium_jar/libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
